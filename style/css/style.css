@@ -1,2 +1,6 @@
-@import "../resets/reset.min.css";
-@import "../geral/geral.min.css";
+@import url(/assets/fonts/fonts.min.css);
+body {
+  background-color: #fff;
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+}

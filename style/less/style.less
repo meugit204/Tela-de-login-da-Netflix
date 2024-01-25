@@ -1,14 +1,10 @@
-// reset
-@import "../resets/reset.min.css";
-
-// layouts
-@import "../layout/_l-header.less";
-@import "../layout/_l-main.less";
-@import "../layout/_l-footer.less";
-
-// geral
-@import "../geral/geral.min.css";
-
-// componentes
-@import "../component/componentes.less";
-
+@import url(/assets/fonts/fonts.min.css);
+// style da pagina
+body {
+  background-color: #fff;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
