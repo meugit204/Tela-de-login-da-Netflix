@@ -1,3 +1,4 @@
+/* cores do projeto */
 :root {
   --cor-primaria: #3498db; /* Azul */
   --cor-secundaria: #e74c3c; /* Vermelho */
@@ -14,5 +15,7 @@
   --cor-gradiente-fim: #2980b9; /* Fim de gradiente azul */
 }
 
-/* ex de como usar */
-/* color: var(--cor-texto); */
+/* Tamanho do container padrao da pagina */
+:root {
+  --max-width-container: 1200px;
+}

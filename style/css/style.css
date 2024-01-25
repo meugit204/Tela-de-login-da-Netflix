@@ -1,8 +1,8 @@
 @import "../../style/reset/Normalize.min.css";
 @import "../../assets/fonts/fonts.min.css";
-@import "../../style/cores/cores.min.css";
+@import "../../style/variaveis/var.min.css";
 body {
-  background-color: #fff;
+  background-color: var(--cor-primaria);
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
 }
