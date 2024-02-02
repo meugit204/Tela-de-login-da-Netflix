@@ -18,8 +18,20 @@
 
 /* Tamanho do container padrao da pagina */
 :root {
-  --max-width-container: 1200px;
+  --max-width-container: 1100px;
 }
 /* Classes auxiliares */
 
 /* componentes */
+.nav-footer {
+  margin-top: 20px;
+}
+.nav-footer ul li {
+  padding: 10px 0;
+}
+.nav-footer ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: lighter;
+}

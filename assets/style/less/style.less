@@ -9,12 +9,17 @@
 
 // style da pagina
 body {
-  background-color: var(--cor-fundo-branco);
+  position: relative;
+  background-image: url(../../imagens/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr var(--max-width-container) 1fr;
   grid-template-areas:
-    "header header header"
-    "main main main"
+    ". header ."
+    ". main ."
     "footer footer footer";
   @media screen and (max-width: 760px) {
     grid-template-columns: 1fr;
@@ -22,5 +27,186 @@ body {
       "header"
       "main"
       "footer";
+  }
+  .escurec {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+  }
+  header {
+    grid-area: header;
+    z-index: 2;
+    .header__logo {
+      margin-top: 0.5rem;
+      a {
+        img {
+          width: 100px;
+          height: 34px;
+          z-index: 2;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        padding-left: 20px;
+      }
+    }
+  }
+  main {
+    grid-area: main;
+    z-index: 2;
+    .container-form {
+      z-index: 2;
+      form {
+        z-index: 2;
+        max-width: 450px;
+        margin: 20px auto 0 auto;
+        background-color: rgba(0, 0, 0, 0.646);
+        padding: 48px 68px;
+        h2 {
+          color: var(--cor-texto-branco);
+          font-size: 2rem;
+          font-weight: 700;
+          text-transform: capitalize;
+          margin-bottom: 30px;
+        }
+        .form__login {
+          input {
+            width: 100%;
+            height: 60px;
+            margin-bottom: 40px;
+            border: 1px solid #ccc;
+            outline: none;
+            border-radius: 8px;
+            background-color: rgba(240, 248, 255, 0);
+            padding-left: 8px;
+            color: var(--cor-texto-branco);
+            z-index: 2;
+            &[type="submit"] {
+              background-color: rgb(193, 17, 25);
+              border-radius: 8px;
+              height: 40px;
+              border: 0;
+              font-size: 18px;
+              font-weight: bold;
+              text-transform: capitalize;
+              cursor: pointer;
+            }
+          }
+        }
+        .form__recupera {
+          z-index: 2;
+          text-align: center;
+
+          a {
+            color: var(--cor-texto-branco);
+          }
+        }
+        .form__lembra {
+          display: flex;
+          gap: 6px;
+          align-items: flex-end;
+          color: var(--cor-texto-branco);
+          margin-top: 30px;
+          input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .form__assina {
+          z-index: 2;
+          margin-top: 20px;
+          p {
+            color: var(--cor-texto-branco);
+            font-size: 16px;
+          }
+          a {
+            color: var(--cor-texto-branco);
+            font-size: 17px;
+            font-weight: bold;
+          }
+        }
+        .form__saiba {
+          margin-top: 20px;
+          z-index: 2;
+          p {
+            color: #8c8c8c;
+
+            a {
+              color: #0071eb;
+            }
+          }
+        }
+        @media screen and (max-width: 600px) {
+          background-color: var(--fundo-cor-preto);
+          padding: 10px 20px;
+          max-width: 100%;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  footer {
+    grid-area: footer;
+    z-index: 2;
+    margin-top: 40px;
+    padding-top: 80px;
+    background-color: #000000cb;
+    .footer__info {
+      max-width: 1100px;
+      margin: 0 auto;
+      z-index: 2;
+
+      p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1.4rem;
+        padding-left: 20px;
+      }
+    }
+    .footer__container {
+      max-width: 1100px;
+      margin: 0 auto;
+      z-index: 2;
+      display: flex;
+      padding: 0 20px;
+      .footer__duvidas {
+        width: 25%;
+        @media screen and (max-width: 960px) {
+          width: 50%;
+        }
+      }
+      .footer__ajuda {
+        width: 25%;
+        @media screen and (max-width: 960px) {
+          width: 50%;
+        }
+      }
+      .footer__termo,
+      .footer__privacidade {
+        width: 25%;
+        @media screen and (max-width: 960px) {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        gap: 10px;
+        align-items: center;
+      }
+    }
+    .footer__copyright {
+      margin-top: 80px;
+      background-color: var(--cor-fundo-preto);
+      padding: 5px 0;
+      p {
+        color: var(--cor-texto-branco);
+        text-align: center;
+      }
+    }
+    @media screen and (max-width: 960px) {
+      border-top: 1px solid #ccc;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    background-image: none;
+    background-color: var(--cor-fundo-preto);
   }
 }
