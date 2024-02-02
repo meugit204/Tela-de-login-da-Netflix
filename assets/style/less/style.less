@@ -9,10 +9,18 @@
 
 // style da pagina
 body {
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-fundo-branco);
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "header header header"
     "main main main"
     "footer footer footer";
+  @media screen and (max-width: 760px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
 }
