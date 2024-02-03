@@ -16,7 +16,7 @@ Obrigado por explorar meu portfólio!
  
 ## 🚀 Skills
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,angular,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,git)](https://skillicons.dev)
 
 ## 🖍 Design
 
