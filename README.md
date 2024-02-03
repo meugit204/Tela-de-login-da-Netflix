@@ -12,7 +12,7 @@ precisar de mais informações, sinta-se à vontade para entrar em contato.
 
 Obrigado por explorar meu portfólio!
 
-![Texto Alternativo](https://github.com/meugit204/imagens/blob/09a1a4ff6f7069fe22ee5ded9b25bd69e3011f10/meu-portifolio.png)
+![Texto Alternativo](https://github.com/meugit204/imagens/blob/6e1e704802fe802fece80413f8037a4237bf1e1d/projeto-d-05.png)
  
 ## 🚀 Skills
 
