@@ -3,25 +3,12 @@ LINK DO PROJETO DESENVOLVIDO: https://meugit204.github.io/Tela-de-login-da-Netfl
 # Título do Projeto: Tela de login da Netflix
 
 ## Descrição do Projeto:
-Bem-vindo ao meu portfólio pessoal! Aqui, compartilho um pouco sobre quem sou, meus projetos e meu percurso no mundo do desenvolvimento web. Este projeto reflete meu atual nível de conhecimento em HTML, CSS, e JavaScript, demonstrando o que aprendi até o momento.
-
-### Página Inicial
-Na página inicial, você encontrará uma seção dedicada a conhecer um pouco mais sobre mim. Além disso, disponibilizei meu currículo para download, permitindo que os visitantes tenham acesso rápido às informações relevantes sobre minha experiência e habilidades.
-
-### Navegação Intuitiva
-A facilidade de navegação é uma prioridade. Implementei links que direcionam os visitantes para diferentes seções do projeto, tornando a exploração do meu portfólio simples e intuitiva. Esses links são estrategicamente posicionados para proporcionar uma experiência de usuário fluida.
-
-### Página de Projetos
-A seção de projetos destaca algumas das realizações que alcancei durante meu curso na Danki Code e na minha faculdade de Tecnologia em Desenvolvimento Web. Todos esses projetos foram desenvolvidos por mim, utilizando HTML, CSS, Less, e JavaScript. A inclusão de projetos do curso e da faculdade reflete meu comprometimento com o aprendizado contínuo e a aplicação prática dos conhecimentos adquiridos.
+Este repositório contém um projeto pessoal de replicação da tela de login da Netflix, desenvolvido utilizando HTML, CSS e SCSS. A replica foi criada com base na análise de uma imagem da página original, buscando reproduzir visualmente a experiência de login. É importante notar que, devido às limitações da análise da imagem, a replica pode não ser 100% idêntica à página original. O código fonte está estruturado de forma organizada, com o uso de variáveis e aninhamento de estilos proporcionados pelo SCSS, facilitando a manutenção e compreensão do código. O projeto visa demonstrar habilidades de front-end e práticas de desenvolvimento web.
 
 ### Responsividade
 Um dos aspectos fundamentais deste projeto é sua total responsividade. Independentemente do dispositivo que você está usando, o layout se ajusta de maneira eficiente para proporcionar uma experiência consistente e agradável.
 
-## Tecnologias Utilizadas
-HTML: Estruturação semântica do conteúdo.
-CSS e Less: Estilização e design responsivo.
-JavaScript: Implementação de interatividade e dinamismo.
-Este portfólio é o resultado do meu esforço e dedicação para desenvolver habilidades sólidas em desenvolvimento web. Espero que aproveite a visita! Se houver algo específico que gostaria de discutir ou se precisar de mais informações, sinta-se à vontade para entrar em contato.
+precisar de mais informações, sinta-se à vontade para entrar em contato.
 
 Obrigado por explorar meu portfólio!
 
